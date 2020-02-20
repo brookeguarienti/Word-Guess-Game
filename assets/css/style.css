@@ -1,13 +1,18 @@
 /* Jumotron */
 .jumbotron {
-	background-color: gray;
-	background-image: url('images/lion_jumbotron.jpg');
-	background-size: contain;
+	background-image: url('../images/lion_jumbotron.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Body */ 
 body {
-    background-image: url("images/norwegian_rose.png");
-    background-repeat: repeat;
+	background-image: url('images/norwegian_rose.jpg');
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+	max-width: 800px;
+	margin-top: 120px;
 }
