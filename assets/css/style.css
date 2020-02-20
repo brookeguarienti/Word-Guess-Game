@@ -1,0 +1,13 @@
+/* Jumotron */
+.jumbotron {
+	background-color: gray;
+	background-image: url('images/lion_jumbotron.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* Body */ 
+body {
+    background-image: url("images/norwegian_rose.png");
+    background-repeat: repeat;
+}
