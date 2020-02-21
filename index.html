@@ -11,9 +11,15 @@
     <!-- link to stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css"> 
 
+    <!-- link to Javascript -->
+
+
     <title>Word Guess Game</title>
   </head>
   <body>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
 
     <!-- Jumbotron -->
     <div class="jumbotron">
@@ -43,12 +49,13 @@
         
                 <!-- Column 1 of 2 in row 2-->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p></p>
                 </div>
             
                 <!-- Column 2 of 2 in row 2 Number of Wins -->
                 <div class="col-md-6">
-                    <p>Placeholder</p>
+                    <p>Wins</p>
+                    <p id="wins"></p>
                 </div>
             </div>
             
@@ -57,11 +64,12 @@
                 
                 <!-- Column 1 of 2 in row 3 -->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p></p>
                 </div>
                 <!-- Column 2 of 2 in row 3 Current Word -->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p>Current Word</p>
+                    <p id="current-word"></p>
                 </div>
             </div>
             
@@ -70,12 +78,13 @@
 
                 <!-- Column 1 of 2 in row 4 -->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p></p>
                 </div>
 
                 <!-- Column 2 of 2 in row 4 Number of Guesses Remaining-->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p>Number of Guesses</p>
+                    <p id="num-guess"></p>
                 </div>
             </div>
 
@@ -84,12 +93,13 @@
 
                 <!-- Column 1 of 2 in row 5 -->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p></p>
                 </div>
 
                 <!-- Column 2 of 2 in row 5 Letters Already Guessed -->
                 <div class="col-md-6">
-                    <p>placeholder</p>
+                    <p>Letters Already Guessed</p>
+                    <p id="letter">
                 </div>
             </div>
 
@@ -97,7 +107,6 @@
         </div>
     </div>
     
-
     
   </body>
 </html>

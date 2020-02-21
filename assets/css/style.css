@@ -1,6 +1,7 @@
 /* Jumotron */
 .jumbotron {
 	background-image: url('../images/lion_jumbotron.jpg');
+	color: gray;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -8,11 +9,15 @@
 
 /* Body */ 
 body {
-	background-image: url('images/norwegian_rose.jpg');
+	background-image: url('../images/norwegian_rose.png');
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
 	max-width: 800px;
 	margin-top: 120px;
+}
+
+.container p {
+	text-align: center;
 }
