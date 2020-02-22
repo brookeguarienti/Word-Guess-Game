@@ -16,8 +16,27 @@ body {
 .container {
 	max-width: 800px;
 	margin-top: 120px;
+	margin-bottom: 120px;
 }
 
-.container p {
+.content-wrapper {
+	border: solid;
+	border-width: 1px;
+}
+
+.img {
+	max-width: 200px !important;
+	max-height: 200px !important;
+	margin: 10px auto;
+}
+
+li {
+	align-content: center !important;
+	margin: 10px;
+}
+
+ul.list-group {
+	list-style-type: none;
 	text-align: center;
+	margin: 10px 10px 10px;
 }
