@@ -10,7 +10,7 @@ var animalsIndex = 0;
 // Answer Array that holds the letters guessed 
 var answerArray = [];
 
-// 
+// Array that holds animalGuess split to compare to answerArray 
 var generatedWord = [];
 
 // Answer Array Index
@@ -38,7 +38,7 @@ var restart = function() {
 // Answer Array that holds the letters guessed 
  answerArray = [];
 
-// 
+// Array that holds animalsGuess split and compares to answerArray 
  generatedWord = [];
 
 // Answer Array Index
@@ -79,8 +79,6 @@ function renderAnimals() {
   generatedWord = animalsGuess.split("")
   console.log(generatedWord)
     // If there are still more animals, render the next one.
-    // if (animalsIndex <= (animals.length - 1)) {
-      
 
       for (var i = 0; i < animalsGuess.length; i++) {
         answerArray[i] = "_";
@@ -88,9 +86,7 @@ function renderAnimals() {
 
     currentWordText.innerHTML = answerArray.join(' ');
     }
-  // }
-
-
+  
   // Function that updates the wins
   function updateWins() {
     document.querySelector("#wins").innerHTML = wins;
