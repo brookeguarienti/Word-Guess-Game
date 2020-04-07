@@ -1,6 +1,9 @@
 # Word-Guess-Game
 The purpose of the Word Guess Game is to utilize Javascript to create a word guessing game.
 
+## See for yourself
+https://brookeguarienti.github.io/Word-Guess-Game/
+
 ### Game Setup Explained
 The folling items below are displayed on the screen to start:
 
